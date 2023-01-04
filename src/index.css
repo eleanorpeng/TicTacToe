@@ -25,6 +25,30 @@ body {
 }
 
 .squares {
+  background: white;
+  color: black;
   border: none;
   font-size: 5rem;
+  cursor: pointer;
+  outline: none;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+}
+
+.info-wrapper {
+  margin-top: 20px;
+  display: flex;
+
+  justify-content: space-between;
+}
+
+.info-wrapper button {
+  background-color: black;
+  padding: 10px;
+  color: white;
+  font-weight: bold;
 }

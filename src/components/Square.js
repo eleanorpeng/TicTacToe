@@ -1,10 +1,10 @@
 import React from "react";
 
-const Square = (/*{ parameters }*/) => {
+const Square = (props) => {
   return (
-    <>
-    // TODO: Create a clickable square that can contain an X or O
-    </>
+    <button className="squares" onClick={props.onClick}>
+      {props.value}
+    </button>
   );
 };
 
